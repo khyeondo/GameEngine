@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EngineCore">
+      <UniqueIdentifier>{b8bebfb6-4ef7-4f5c-ad15-7fda567e74bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsApi">
+      <UniqueIdentifier>{56ac4dc3-1943-4773-97aa-b4147f5988a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManager">
+      <UniqueIdentifier>{07b793ac-bb59-46e8-a91b-8b2436b28967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e2e9b6f7-f035-4ef1-961e-066772e6d462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{c69ac276-ded4-42d8-9fae-3373cd181c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{3736c887-986c-4ff5-902d-2d67cd1509f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowManager">
+      <UniqueIdentifier>{731b776f-e40d-4065-925c-664bd3740471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsApi\GLRenderTool">
+      <UniqueIdentifier>{b0d905c7-ad4d-4861-8846-fe3f82f73919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsApi\RenderTool">
+      <UniqueIdentifier>{52db01b2-180d-42a9-9629-7ad47059246d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{b1ccfd3a-ddde-4cff-a809-c45423af1b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Components">
+      <UniqueIdentifier>{ed4fe345-65ad-47f5-a2c1-3da3df9d5b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject">
+      <UniqueIdentifier>{d5972053-53e9-4bc0-a16b-849a7e1184a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{9446034c-0301-4ecc-89dd-12621031233b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Components\Camera">
+      <UniqueIdentifier>{fa3883b4-26e1-4674-8131-d88472acce90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Components\ImageRenderer">
+      <UniqueIdentifier>{2a0802fc-1dd0-4d9d-b6b8-eb67824c601a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Components\MeshRenderer">
+      <UniqueIdentifier>{028e0978-7f5e-44e3-9763-442b72e46634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Components\SkyBox">
+      <UniqueIdentifier>{4addf91d-d7a3-4af0-acec-72600d12c559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Components\Transform">
+      <UniqueIdentifier>{2920e220-b8af-444f-bae2-5b13a57c3ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Mesh">
+      <UniqueIdentifier>{862f050d-1e7d-4d14-93c4-db286ddc68ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Texture">
+      <UniqueIdentifier>{d2c199a3-6eec-4ff4-b6d0-e845e117fa23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\ResourceManager">
+      <UniqueIdentifier>{b8d8779d-5375-4e69-80bf-9e90d71a3f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SceneManager">
+      <UniqueIdentifier>{31ee7a4f-1367-4e40-91a6-b4a4d3368f60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\EngineCore.cpp">
+      <Filter>EngineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GLRenderTool.cpp">
+      <Filter>GraphicsApi\GLRenderTool</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RenderTool.cpp">
+      <Filter>GraphicsApi\RenderTool</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputManager.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameObject.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>Object\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ImageRenderer.cpp">
+      <Filter>Object\Components\ImageRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MeshRenderer.cpp">
+      <Filter>Object\Components\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SkyBox.cpp">
+      <Filter>Object\Components\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Transform.cpp">
+      <Filter>Object\Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mesh.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture.cpp">
+      <Filter>Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneManager.cpp">
+      <Filter>Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WindowManager.cpp">
+      <Filter>WindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EngineTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\glaux.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header\EngineCore.h">
+      <Filter>EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="header\EngineSetup.h">
+      <Filter>EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GLRenderTool.h">
+      <Filter>GraphicsApi\GLRenderTool</Filter>
+    </ClInclude>
+    <ClInclude Include="header\RenderTool.h">
+      <Filter>GraphicsApi\RenderTool</Filter>
+    </ClInclude>
+    <ClInclude Include="header\InputManager.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Vec2f.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Vec2i.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Vec3f.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Vec3i.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Component.h">
+      <Filter>Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GameObject.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Camera.h">
+      <Filter>Object\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImageRenderer.h">
+      <Filter>Object\Components\ImageRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="header\MeshRenderer.h">
+      <Filter>Object\Components\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SkyBox.h">
+      <Filter>Object\Components\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Transform.h">
+      <Filter>Object\Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="header\IResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ResourceManager.h">
+      <Filter>Resource\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Mesh.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Texture.h">
+      <Filter>Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneManager.h">
+      <Filter>Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="header\EngineTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="header\WindowManager.h">
+      <Filter>WindowManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
